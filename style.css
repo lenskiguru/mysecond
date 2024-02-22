@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page_header {
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background: #394a51;
+    position:fixed;
+    width: 100%;
+}
+.logo_block {
+    margin-left: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    color: #fbf2d5;
+    margin-left: 50px;
+}
+
+.navigation_block {
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation_texts {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.navigation_list {
+   text-decoration: none;
+   color: #fbf2d5;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-right: 30px;
+}
+
+.header_container {
+    justify-content: center;
+    display: flex;
+}
+
+.header_container_text {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #394a51;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.main_catalog {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    max-height: 300px;
+    width: 500px;
+}
+
+.page_footer {
+    background: #394a51;
+}
+
+.footer_text {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fbf2d5;
+}
+
+.footer_form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form_item {
+    /*text-align: right;*/
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.form_submit {
+    text-align: center;
+}
+
+.form_label {
+    vertical-align: top;
+}
+
+.form_input {
+    width: 13em;
+}
+
+.footer_contact_btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+.form_item_centerer {
+    width: 300px;
+    text-align: right;
+    padding: auto;
+}
