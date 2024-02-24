@@ -1,13 +1,24 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blocks</title>
+       <!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+
+    <title>Blocks</title>
+
+  </head>
+    <!-- Дополнительный JavaScript; выберите один из двух! -->
+    <!-- Вариант 1: пакет jQuery и Bootstrap (включает Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
     <header class="page_header">
-        <nav class="navigation">
+        <!-- <nav class="navigation">
             <div class="logo_block">
                 <a href="#"class="logo">LENSKINGURU</a>
             </div>            
@@ -17,10 +28,57 @@
                 <li><a href="https://www.linkedin.com/in/nadezda-budarina-401195231/" class="navigation_list" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
-        </nav>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" id="logo">LENSKINGURU</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Main <span class="sr-only">(текущая)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">LinkedIn</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button type="button" class="btn btn-secondary" type="submit">Go!</button>
+              </form>
+            </div>
+          </nav>
+
         <div class="header_container">
-            <p class="header_container_text"> WELCOME TO MY GALLERY</p>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="IMG/slider2.jpg" class="d-block w-100" alt="autumn">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slider4.jpg" class="d-block w-100" alt="water">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slider3.jpg" class="d-block w-100" alt="mountine">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </button>
+            </div>
         </div>
+        <h1 class="header_container_text">WELCOME TO MY GALLERY</h1>
     </header>
 
     <main>
@@ -59,7 +117,8 @@
                 </span>
             </div>
             <div class="form_submit">
-                <button class="footer_contact_btn" form="form_id">Send</button>
+                <!-- <button class="footer_contact_btn" form="form_id">Send</button> -->
+                <button type="button" class="btn btn-outline-light">Send</button>
             </div>
          </form>
 
